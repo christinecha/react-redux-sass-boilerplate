@@ -1,11 +1,33 @@
 {
   "name": "react-redux-sass-boilerplate",
   "version": "0.0.0",
-  "description": "",
+  "description": "A very bare-bones boilerplate repo for [CLIENT-SIDE ONLY] React/Redux apps with SaSS as your CSS precompiler.",
   "main": "app.js",
+  "repository": "https://github.com/christinecha/react-redux-sass-boilerplate",
   "scripts": {
+    "start": "webpack-dev-server --hot --progress",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ccha <hello@christinecha.com> (https://github.com/christinecha)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
 }
