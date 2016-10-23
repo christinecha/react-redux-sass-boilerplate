@@ -7,7 +7,7 @@ class SampleComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="sample-component">
         This is my sample component.
       </div>
     )
