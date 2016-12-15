@@ -18,10 +18,10 @@ Get Started
 ------
 
 ```
-$ git clone https://github.com/christinecha/react-redux-sass-boilerplate.git
+$ git clone git@github.com:christinecha/react-redux-sass-boilerplate.git
 $ npm install
 $ npm start
-$ open https://localhost:8080/webpack-dev-server/
+$ open http://localhost:8080/webpack-dev-server/
 ```
 
 Dependency Versions
